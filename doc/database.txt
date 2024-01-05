@@ -1,0 +1,18 @@
+
+Commands:
+./node_modules/.bin/makemigration --name <migration name>
+
+
+
+
+FEATURES:
+- As an User i will check my status
+- As an User i will add me automatic to payment with paypal transactionid
+- As an User i will change the language
+- As an System i will notify all users 3 day bevor expired
+- As an System i will remove all users from Role(Support) where have no aktive "subscription"
+- As an Administrator i will add new user to payment
+- As an Administrator i will modify existing payment from users
+- As an Administrator i will set the role is used for payed
+
+

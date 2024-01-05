@@ -1,0 +1,22 @@
+{
+  "name": "brem-map-bot",
+  "version": "0.0.0",
+  "description": "BremMapBot",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "file-system": "^2.2.2",
+    "i18next": "^19.4.5",
+    "i18next-fs-backend": "^1.0.6",
+    "imap": "^0.8.19",
+    "jsdom": "^16.2.2",
+    "moment": "^2.26.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3",
+    "uuid": "^8.2.0",
+    "winston": "^3.2.1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "BremMap.eu",
+  "defaultLng": "de",
+  "fallbackLng": "de",
+  "database": {
+    "host": "",
+    "port": "",
+    "user": "",
+    "password": "",
+    "name": ""
+  },
+  "discord": {
+    "token": "",
+    "adminUserId": "",
+    "activity": ".help",
+    "guildId": "",
+    "roles": {
+      "trainer": "",
+      "supporter": ""
+    }
+  },
+  "imap": {
+    "user": "",
+    "password": "",
+    "host": "",
+    "port": "993",
+    "tls": "true",
+    "mailFrom": "service@paypal.de",
+    "mailFromSubject": [
+      "Sie haben eine Zahlung erhalten",
+      "Sie haben Geld erhalten"
+    ]
+  },
+  "commadnPrefix": "."
+}

@@ -1,0 +1,62 @@
+{
+  "bot": {
+    "common": {
+      "botName": "BremMap.eu"
+    },
+    "modules": {
+      "admin": {
+        "item": {
+          "help": "Item commands like:\n!item list\n!item add <name> <duration> <currencyValue> <currency> <defaultItem>\n!item change <id> <property> <newValue>\n!item default <id>"
+        },
+        "member": {
+          "historyMessage": "Verlauf:\n{{messageToSend}}\n\n",
+          "statusMessage": "Zugang bis:\n{{expireDate}} Uhr\n\n",
+          "success": "Erfolgreich ausgef\u00FChrt.",
+          "userForTransactionUnknown": "Der Discord-Benutzer ist unbekannt. Bitte den Trainer/in das er/sie den Befehl {{command}} zum Bot sendet.",
+          "userUnknown": "Benutzer nicht gefunden."
+        }
+      },
+      "activation": {
+        "userUnknown": "Wir kennen und noch nicht. Bitte den Befehl {{command}} ausf\u00FChren."
+      },
+      "donation": {
+        "transactionAlreadyUsed": "Die Transaction wurde schon verwendet!",
+        "transactionNotFound": "Die Transaction wurde nicht gefunden oder noch nicht verarbeitet. (Versuch es sp\u00E4ter noch mal)",
+        "userForTransactionUnknown": "Der Discord-Benutzer ist unbekannt. Bitte den Trainer/in das er/sie den Befehl {{command}} zum Bot sendet.",
+        "help": ""
+      },
+      "memberStatus": {
+        "historyMessage": "**Verlauf:**\n{{messageToSend}}\n\n",
+        "historyMessageTemplate": "**[{{eventDate}}]** {{details}}\n",
+        "nothing": "*Noch keine Eintr\u00E4ge*\n\n",
+        "statusMessage": "Dein Zugang ist bis {{expireDate}} Uhr verf\u00FCgbar.",
+        "success": "Erfolgreich ausgef\u00FChrt.",
+        "updateSuccess": "Aktualisierung ausgef\u00FChrt.",
+        "userKnown": "Wir kennen uns schon :)\nF\u00FCr mehr Informationen bitte den Befehl {{command}} ausf\u00FChren.",
+        "userNoDonation": "Es wurde noch nicht gespendet.",
+        "userUnknown": "Wir kennen und noch nicht. Bitte den Befehl {{command}} ausf\u00FChren.",
+        "userWelcome": "Willkommen im Discord der $t(bot.common.botName)\nF\u00FCr mehr Informationen bitte den Befehl {{command}} ausf\u00FChren."
+      }
+    },
+    "runner": {
+      "autoActivation": {
+        "notificationMessage": "Wir haben dich Freigeschaltet. Dein Zugriff l\u00E4uft am {{date}} Uhr ab!"
+      },
+      "autoNotification": {
+        "notificationMessage": "Dein Zugriff l\u00E4uft am {{date}} Uhr ab!"
+      },
+      "autoRemove": {
+        "notificationMessage": "Dein Zugriff ist am {{date}} abgelaufen! Wenn du weiterhin alles sehen m\u00F6chtest dann kannst du wieder spenden."
+      }
+    },
+    "services": {
+      "eventLogger": {
+        "addTime": "Es wurden {{duration}} Tage hinzugef\u00FCgt",
+        "addTimeForOther": "{{actionUsername}} hat dir {{duration}} Tage hinzugef\u00FCgt",
+        "addTimeForMigration": "Dein Zugang geht bis zum {{date}}",
+        "notification": "Dein Zugriff l\u00E4uft am {{date}} Uhr ab.",
+        "removeAccess": "Dein Zugriff ist am {{date}} Uhr abgelaufen."
+      }
+    }
+  }
+}

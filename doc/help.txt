@@ -1,0 +1,23 @@
+Item:
+ * item list
+ * item add <name> <duration> <currencyValue> <currency> <defaultItem>
+ * item change <id> <property> <newValue>
+ * item default <id>
+
+MailReader:
+ * mailReader
+
+Member:
+ * member verlauf <discord#1234>
+ * member status <discord#1234>
+ * member add <day> <discord#1234>
+
+Spenden:
+ * spende <transactionId>
+ * spende <transactionId> <discordName>
+
+Status:
+ * status
+ * verlauf
+ * update
+ * neu
